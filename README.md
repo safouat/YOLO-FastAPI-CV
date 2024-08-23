@@ -1,6 +1,6 @@
 # FastAPI YOLO Object Detection API
 
-This repository contains a FastAPI application that provides endpoints for object detection and classification using the YOLO model. The application can process both images and videos, returning predictions or annotated media files.
+This repository contains a FastAPI application that provides endpoints for object detection and classification using the YOLO model, allowing for deployment and inference testing. The application can process both images and videos, returning either predictions or annotated media files.
 
 ## Features
 
@@ -20,7 +20,8 @@ This repository contains a FastAPI application that provides endpoints for objec
 1. **Clone the repository**:
 
    ```bash
-   git clone
+   git clone https://github.com/safouat/YOLO-FastAPI-CV.git
+
 
    ```
 
@@ -72,12 +73,19 @@ This repository contains a FastAPI application that provides endpoints for objec
 ### Example Usage with `curl`
 
 - **Image Classification**:
+- ![Screenshot from 2024-08-23 16-11-29](https://github.com/user-attachments/assets/da5906ba-2072-48bf-bc07-8a42df6d53ba)
 
 - **Image Detection**:
+- ![Screenshot from 2024-08-23 16-12-56](https://github.com/user-attachments/assets/b9e38bb6-5006-4e73-80e0-fbae949c9957)
+
 
 - **Video Classification**:
+  ![Screenshot from 2024-08-23 16-42-18](https://github.com/user-attachments/assets/9ac2956e-3bc6-439e-98c6-a668bb011b21)
+
 
 - **Video Detection**:
+ ![Screenshot from 2024-08-23 16-43-53](https://github.com/user-attachments/assets/b44a614e-0c85-4320-9e41-d9658f99e2d3)
+
 
 ### Notes
 
